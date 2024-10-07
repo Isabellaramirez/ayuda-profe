@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+* {
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho/alto del elemento */
+}
+
+body{
+    background-image: url('img/fondo.jpg');
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+
+.container{
+    border:2px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    background-color: #33bbff;
+    border-radius: 10px;
+}
+
+
+
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:8vh;
+    background-color: #33bbff; 
+}
+

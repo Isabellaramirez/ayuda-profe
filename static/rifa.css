@@ -1,0 +1,46 @@
+.col-md-4.texto{
+    margin-top: 5;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family:fantasy;
+}
+
+p{
+    font-family: monospace;
+}
+.caja{
+    border: 2px solid #164bad; /* Borde negro de 2px */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px; /* Espacio interno dentro del borde */
+    margin: 10px; /* Espacio entre columnas */
+    background-color: #90b8e0; /* Color de fondo */
+    height: 100%; /* Asegura que las cajas tengan la misma altura */
+}
+
+.imagen-rifa img {
+    max-width: 100%; /* Imagen responsiva */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.icofont-whatsapp{
+    max-width: 100%;
+    height: auto;
+}
+
+/*.img .icofont-whatsapp{
+    font-size: 40px; 
+    color: #25D366;
+}*/
+
+.whatsapp {
+    width: 40px; /* Ajusta el tamaño a lo que desees */
+    height: auto; /* Mantiene la proporción */
+     /* Este valor solo se aplicará si el SVG tiene un atributo 'fill' */
+}
+
+

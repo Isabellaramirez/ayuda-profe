@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+* {
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho/alto del elemento */
+}
+
+body{
+    background-image: url('img/fondo.jpg');
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.btn.btn-outline-primary{
+    justify-content: baseline;
+}
+
+.primera {
+    width: 300px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.segunda {
+    width: 400px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.tercera {
+    width: 400px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana (opcional, depende de tu diseño) */
+    margin-top: 3%;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:8vh;
+    background-color: #33bbff; 
+}
+

@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+    background-color: #33bbff;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.contenedor{
+    display: flex; /* Usar Flexbox */
+    flex-direction: column; /* Organizar elementos en columna */
+    justify-content: center; /* Centrar verticalmente (si se necesita) */
+    align-items: center; /* Centrar horizontalmente */
+    margin-top: 100px; /* Margen superior para separación */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde para visualizar el contenedor (opcional) */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    background-image: url('img/paticas.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+}
+
+.btn {
+    margin-top: 20px; /* Espacio entre los campos y el botón */
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(5, 5, 65);
+}
+
